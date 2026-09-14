@@ -12,8 +12,14 @@
 
 ## Стек и инструменты
 
-Splunk, Wireshark, Sysmon, Windows Event Viewer, Python/PowerShell для автоматизации анализа.
+Splunk, Wireshark, Sysmon, Windows Event Viewer, VirusTotal (`vt-cli`), Python/PowerShell для автоматизации анализа.
 
-## Статус
+## Сертификация
 
-Файлы и материалы будут добавляться по мере выполнения новых проектов.
+**LetsDefend SOC Analyst Learning Path** — пройден 14.09.2026. [Проверить сертификат](https://app.letsdefend.io/certificate/show/de9e7d55-b183-4355-ac06-ef1b3fb11970).
+
+Темы пути: основы SOC/SIEM, Cyber Kill Chain, MITRE ATT&CK Framework, анализ фишинговых писем, обнаружение веб-атак (включая практическую лабу по цепочке атаки на bWAPP), расследование SIEM-алертов по плейбуку, основы анализа вредоносного ПО, анализ вредоносных документов, сетевой лог-анализ, Splunk, Cyber Threat Intelligence, работа с VirusTotal для SOC-аналитика.
+
+Детальные разборы реальных алертов из пути — в `siem-detection/`:
+- [SOC282 — фишинговое письмо, эскалированное до заражения AsyncRAT с C2](siem-detection/soc282-phishing-free-coffee.md)
+- [SOC138 — вредоносный XLSM-документ с макросом-даунлоадером](siem-detection/soc138-malicious-xlsm-macro.md)
